@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Eraser';
+    src: url("./fonts/eraser");
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    height: 45rem;
+    width: 27rem;
+    margin: 2% auto;
+    background-image: url("../img/blackboard.jpg");
+    background-size: cover;
+    color: rgb(240, 240, 240);
+    font-family: 'Zeyada', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    /*font-family: 'Eraser', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+}
+.top {
+    height: 0.8rem;
+    position: relative;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    height: 8rem;
+    width: 8.6rem;
+    text-align: center;
+}
+
+.flex-center {
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.top .left {
+    border: 5px solid;
+    border-radius: 0% 0% 100% 0%;
+    border-top: white;
+    border-left: white;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.top .right {
+    border: 5px solid;
+    border-top: white;
+    border-right: white;
+    border-radius: 0% 0% 0% 100%;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+
+.main {
+    display: flex;
+    height: 29rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#board {
+    height: 200px;
+    width: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+}
+
+
+.bottom {
+    /*height: 8rem;*/
+    position: relative;
+}
+
+.bottom .left {
+    border: 5px solid;
+    border-bottom: white;
+    border-left: white;
+    border-radius: 0% 100% 0% 0%;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+
+.bottom .right {
+    border: 5px solid;
+    border-bottom: white;
+    border-right: white;
+    border-radius: 100% 0% 0% 0%;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
