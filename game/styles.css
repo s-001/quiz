@@ -19,6 +19,7 @@
     font-weight: 700;
     /*font-family: 'Eraser', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
 }
+
 .top {
     height: 0.8rem;
     position: relative;
@@ -33,7 +34,7 @@
 }
 
 .flex-center {
-    display: flex!important;
+    display: flex !important;
     justify-content: center;
     align-items: center;
 }
@@ -44,8 +45,8 @@
     border-top: white;
     border-left: white;
     position: absolute;
-    left:0;
-    top:0;
+    left: 0;
+    top: 0;
 }
 
 .top .right {
@@ -54,8 +55,8 @@
     border-right: white;
     border-radius: 0% 0% 0% 100%;
     position: absolute;
-    right:0;
-    top:0;
+    right: 0;
+    top: 0;
 }
 
 
@@ -88,8 +89,8 @@
     border-left: white;
     border-radius: 0% 100% 0% 0%;
     position: absolute;
-    left:0;
-    bottom:0;
+    left: 0;
+    bottom: 0;
 }
 
 .bottom .right {
@@ -98,6 +99,6 @@
     border-right: white;
     border-radius: 100% 0% 0% 0%;
     position: absolute;
-    right:0;
-    bottom:0;
+    right: 0;
+    bottom: 0;
 }
